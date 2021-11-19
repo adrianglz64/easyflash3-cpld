@@ -74,7 +74,7 @@ begin
                 case addr(3 downto 0) is
                     when x"8" =>
                         -- $de08 - read ID register
-                        data_out <= x"49";
+                        data_out <= x"4a";
 
                     when x"9" =>
                         -- $de09 - read control register
