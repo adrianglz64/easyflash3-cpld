@@ -1,7 +1,10 @@
 
-EasyFlash 3 CPLD Firmware
+EasyFlash 3 CPLD Firmware version 1.1.2 (c) 2021 Adrian Gonzalez is
+derived from EasyFlash 3 CPLD Firmware 1.1.1 and distributed according to
+the same disclaimer and license as EasyFlash 3 CPLD Firmware 1.1.1
 
-(C) Thomas 'skoe' Giesel
+EasyFlash 3 CPLD Firmware versions 0.9.0 through 1.1.1 are Copyright
+(c) 2011-2012 Thomas 'skoe' Giesel.
 
 License
 =======
@@ -25,6 +28,12 @@ License
 
 Changes
 =======
+
+Version 1.1.2 - 22.12.2021
+
+- Enabled support for 128K SuperSnapshot V5 ROMs
+- Fixed freezer bug that caused a crash when pressing the freeze button while
+  in the Snapshot menus
 
 Version 1.1.1 - 18.08.2012
 
